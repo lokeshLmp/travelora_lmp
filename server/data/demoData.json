@@ -1,0 +1,280 @@
+{
+  "destinations": [
+    {
+      "id": "dest-1",
+      "name": "Goa",
+      "country": "India",
+      "category": "Beach",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 342,
+      "startingPrice": 14999,
+      "bestTimeToVisit": "November to February",
+      "estimatedBudget": "₹15,000 - ₹35,000",
+      "popularAttractions": ["Baga Beach", "Basilica of Bom Jesus", "Dudhsagar Waterfalls", "Fort Aguada"],
+      "thingsToDo": ["Water sports", "Sunset river cruise", "Fontainhas heritage walk", "Scuba diving"]
+    },
+    {
+      "id": "dest-2",
+      "name": "Kashmir",
+      "country": "India",
+      "category": "Mountains",
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.9,
+      "reviewCount": 512,
+      "startingPrice": 22499,
+      "bestTimeToVisit": "March to October",
+      "estimatedBudget": "₹22,000 - ₹50,000",
+      "popularAttractions": ["Dal Lake", "Gulmarg Gondola", "Pahalgam Valley", "Sonmarg"],
+      "thingsToDo": ["Houseboat stay", "Skiing in Gulmarg", "Shikara ride", "Kashmiri Wazwan tasting"]
+    },
+    {
+      "id": "dest-3",
+      "name": "Kerala",
+      "country": "India",
+      "category": "Nature",
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.9,
+      "reviewCount": 420,
+      "startingPrice": 18999,
+      "bestTimeToVisit": "September to March",
+      "estimatedBudget": "₹18,000 - ₹40,000",
+      "popularAttractions": ["Alleppey Backwaters", "Munnar Tea Gardens", "Periyar Sanctuary"],
+      "thingsToDo": ["Houseboat cruise", "Tea estate trek", "Ayurvedic massage", "Kathakali show"]
+    },
+    {
+      "id": "dest-4",
+      "name": "Manali",
+      "country": "India",
+      "category": "Adventure",
+      "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 289,
+      "startingPrice": 13499,
+      "bestTimeToVisit": "October to June",
+      "estimatedBudget": "₹14,000 - ₹30,000",
+      "popularAttractions": ["Solang Valley", "Atal Tunnel", "Hadimba Temple", "Jogini Waterfall"],
+      "thingsToDo": ["Paragliding in Solang", "River rafting in Kullu", "Cafe hopping", "Rohtang snow sports"]
+    },
+    {
+      "id": "dest-5",
+      "name": "Rajasthan",
+      "country": "India",
+      "category": "Heritage",
+      "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 395,
+      "startingPrice": 20999,
+      "bestTimeToVisit": "October to March",
+      "estimatedBudget": "₹20,000 - ₹45,000",
+      "popularAttractions": ["Amber Fort", "Udaipur Lake Palace", "Jaisalmer Fort", "Sam Sand Dunes"],
+      "thingsToDo": ["Camel safari", "Lake Pichola boat ride", "Amber Fort light show", "Rajasthani dinner"]
+    },
+    {
+      "id": "dest-6",
+      "name": "Dubai",
+      "country": "UAE",
+      "category": "City",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.9,
+      "reviewCount": 680,
+      "startingPrice": 45999,
+      "bestTimeToVisit": "November to April",
+      "estimatedBudget": "₹45,000 - ₹1,20,000",
+      "popularAttractions": ["Burj Khalifa", "Palm Jumeirah", "Museum of the Future", "Dubai Marina"],
+      "thingsToDo": ["Burj Khalifa 124th floor view", "4x4 Desert Safari", "Marina yacht dinner", "Souk shopping"]
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-1",
+      "title": "Goa Escape",
+      "destination": "Goa",
+      "country": "India",
+      "duration": "4 Days / 3 Nights",
+      "price": 14999,
+      "rating": 4.8,
+      "reviewCount": 154,
+      "category": "Beach",
+      "travelType": "Leisure & Beach",
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["4-Star Hotel", "Breakfast", "Sightseeing Cab", "Airport Transfer", "Cruise Ticket"]
+    },
+    {
+      "id": "pkg-2",
+      "title": "Kashmir Paradise & Valley of Joy",
+      "destination": "Kashmir",
+      "country": "India",
+      "duration": "5 Days / 4 Nights",
+      "price": 24999,
+      "rating": 4.9,
+      "reviewCount": 220,
+      "category": "Mountains",
+      "travelType": "Romantic & Mountain",
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["Houseboat Stay", "Breakfast & Dinner", "Gulmarg Gondola", "Shikara Ride", "Private Cab"]
+    },
+    {
+      "id": "pkg-3",
+      "title": "Kerala Backwaters & Tea Trails",
+      "destination": "Kerala",
+      "country": "India",
+      "duration": "5 Days / 4 Nights",
+      "price": 19999,
+      "rating": 4.9,
+      "reviewCount": 188,
+      "category": "Nature",
+      "travelType": "Family & Nature",
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["Private Houseboat", "All Meals in Houseboat", "Munnar Tea Tour", "Periyar Boat Safari", "AC Cab"]
+    },
+    {
+      "id": "pkg-4",
+      "title": "Manali Adventure & Solang Snow Trail",
+      "destination": "Manali",
+      "country": "India",
+      "duration": "4 Days / 3 Nights",
+      "price": 13499,
+      "rating": 4.7,
+      "reviewCount": 142,
+      "category": "Adventure",
+      "travelType": "Adventure & Youth",
+      "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["Cottage Resort", "Breakfast & Dinner", "Solang Excursion", "Bonfire Night", "Private Cab"]
+    },
+    {
+      "id": "pkg-5",
+      "title": "Royal Rajasthan Heritage Grandeur",
+      "destination": "Rajasthan",
+      "country": "India",
+      "duration": "6 Days / 5 Nights",
+      "price": 22999,
+      "rating": 4.8,
+      "reviewCount": 195,
+      "category": "Heritage",
+      "travelType": "Culture & Royal",
+      "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["Heritage Haveli Hotel", "Daily Breakfast", "Desert Safari Option", "Fort Entry Guides", "AC Cab"]
+    },
+    {
+      "id": "pkg-6",
+      "title": "Dubai Extravaganza & Desert Safari",
+      "destination": "Dubai",
+      "country": "UAE",
+      "duration": "5 Days / 4 Nights",
+      "price": 48999,
+      "rating": 4.9,
+      "reviewCount": 310,
+      "category": "City",
+      "travelType": "Luxury & International",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+      "includes": ["5-Star Hotel", "Burj 124th Floor", "Desert Safari BBQ", "Marina Yacht Dinner", "Visa & Transfers"]
+    }
+  ],
+  "hotels": [
+    {
+      "id": "hotel-1",
+      "name": "Taj Fort Aguada Resort & Spa",
+      "location": "Candolim, Goa",
+      "destination": "Goa",
+      "rating": 4.9,
+      "reviewCount": 480,
+      "pricePerNight": 9500,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Beachfront", "Infinity Pool", "Luxury Spa", "Free WiFi", "Sea View Dining", "Airport Shuttle"]
+    },
+    {
+      "id": "hotel-2",
+      "name": "The Khyber Himalayan Resort & Spa",
+      "location": "Gulmarg, Kashmir",
+      "destination": "Kashmir",
+      "rating": 4.9,
+      "reviewCount": 360,
+      "pricePerNight": 16500,
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Mountain View", "Heated Indoor Pool", "L'Occitane Spa", "Ski-in/Ski-out", "Fine Dining", "Free WiFi"]
+    },
+    {
+      "id": "hotel-3",
+      "name": "Kumarakom Lake Resort",
+      "location": "Kottayam, Kerala",
+      "destination": "Kerala",
+      "rating": 4.8,
+      "reviewCount": 290,
+      "pricePerNight": 12000,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Backwater View", "Meandering Pool", "Ayurvedic Spa", "Speedboat Rides", "Multi-cuisine", "Free WiFi"]
+    },
+    {
+      "id": "hotel-4",
+      "name": "Span Resort & Spa",
+      "location": "Kullu-Manali Highway, Manali",
+      "destination": "Manali",
+      "rating": 4.7,
+      "reviewCount": 210,
+      "pricePerNight": 7800,
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Riverside Gardens", "Outdoor Pool", "Helipad", "Spa & Wellness", "Trout Angling", "Free WiFi"]
+    },
+    {
+      "id": "hotel-5",
+      "name": "Taj Lake Palace",
+      "location": "Lake Pichola, Udaipur, Rajasthan",
+      "destination": "Rajasthan",
+      "rating": 5.0,
+      "reviewCount": 520,
+      "pricePerNight": 28000,
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Floating Palace", "Jiva Spa Boat", "Royal Butler Service", "Heritage Architecture", "Fine Dining"]
+    },
+    {
+      "id": "hotel-6",
+      "name": "Atlantis The Palm",
+      "location": "Palm Jumeirah, Dubai",
+      "destination": "Dubai",
+      "rating": 4.9,
+      "reviewCount": 920,
+      "pricePerNight": 32000,
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1000&q=80",
+      "amenities": ["Aquaventure Waterpark", "Underwater Suites", "Michelin Dining", "Private Beach", "Spa & Helipad"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "name": "Aarav Sharma",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "rating": 5,
+      "destination": "Goa Escape",
+      "date": "12 Aug 2026",
+      "comment": "Everything from searching to booking was surprisingly simple. The resort in Goa was fantastic and our driver was always on time. Best trip ever!"
+    },
+    {
+      "id": "rev-2",
+      "name": "Priyanka Nambiar",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "rating": 5,
+      "destination": "Kerala Backwaters",
+      "date": "04 Aug 2026",
+      "comment": "The Alleppey houseboat experience organized through Travelora was beyond dreamy. Chef cooked fresh Karimeen fish on board. Totally transparent pricing!"
+    },
+    {
+      "id": "rev-3",
+      "name": "Rohan & Sneha Kapoor",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80",
+      "rating": 5,
+      "destination": "Kashmir Paradise",
+      "date": "28 Jul 2026",
+      "comment": "Took our family to Gulmarg and Srinagar. The Gondola ride and Shikara were seamless. The price breakdown during checkout had zero hidden fees."
+    },
+    {
+      "id": "rev-4",
+      "name": "Tanmay Mehta",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "rating": 4,
+      "destination": "Dubai Extravaganza",
+      "date": "19 Jul 2026",
+      "comment": "The desert safari and Burj Khalifa tickets were confirmed immediately. Downloaded our booking vouchers in one click. Outstanding customer support."
+    }
+  ]
+}

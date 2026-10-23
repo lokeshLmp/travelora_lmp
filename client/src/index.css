@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F7F9FC] text-[#17202A] min-h-screen flex flex-col font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center font-medium rounded-xl px-5 py-2.5 bg-primary text-white hover:bg-primary-light transition-all duration-200 shadow-sm active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center font-medium rounded-xl px-5 py-2.5 bg-secondary text-white hover:bg-secondary-hover transition-all duration-200 shadow-sm active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center font-semibold rounded-xl px-5 py-2.5 bg-accent text-white hover:bg-accent-hover transition-all duration-200 shadow-sm active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center font-medium rounded-xl px-5 py-2.5 border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300 transition-all duration-200 shadow-sm active:scale-[0.98];
+  }
+  .card-premium {
+    @apply bg-white rounded-2xl border border-slate-100/80 shadow-card hover:shadow-card-hover transition-all duration-300;
+  }
+  .input-field {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-800 placeholder-slate-400 focus:border-secondary focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200;
+  }
+}
+
+/* Custom smooth transitions */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Print styling for booking summary receipts */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-receipt, #printable-receipt * {
+    visibility: visible;
+  }
+  #printable-receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

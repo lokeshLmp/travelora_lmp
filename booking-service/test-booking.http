@@ -1,0 +1,57 @@
+POST http://localhost:8081/api/java/bookings
+Content-Type: application/json
+
+{
+  "userId": "guest-user",
+  "packageId": "custom-pkg",
+  "packageName": "Custom Travel Package",
+  "destination": "Goa",
+  "duration": "4 Days / 3 Nights",
+  "travelDate": "2026-12-20",
+  "travellersCount": 2,
+  "travellersList": [
+    {
+      "name": "Lokesh",
+      "age": "18",
+      "gender": "Male"
+    },
+    {
+      "name": "Test User",
+      "age": "20",
+      "gender": "Female"
+    }
+  ],
+  "roomTierName": "Standard Deluxe Room",
+  "contact": {
+    "name": "Lokesh",
+    "email": "test@example.com",
+    "phone": "9999999999",
+    "specialRequests": ""
+  },
+  "pricing": {
+    "basePrice": 14999,
+    "travellerCount": 2,
+    "baseSubtotal": 29998,
+    "roomCost": 0,
+    "insuranceCost": 0,
+    "subtotal": 29998,
+    "taxes": 0,
+    "serviceFee": 0,
+    "discount": 0,
+    "total": 29998
+  },
+  "paymentMethod": "upi"
+}
+
+###
+
+# Replace TRV-2026-12345 with the bookingId returned by the POST above
+GET http://localhost:8081/api/java/bookings/TRV-2026-12345
+
+###
+
+GET http://localhost:8081/api/java/bookings/user/guest-user
+
+###
+
+GET http://localhost:8081/api/java/health/db
