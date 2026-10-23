@@ -115,6 +115,22 @@ React Booking page ──POST /api/java/bookings──▶ Node.js server ──f
 * The Java service validates the booking, generates the booking ID, saves it to MongoDB and returns it.
 * If the Java service or database fails, the booking page shows an error and does **not** show a success screen.
 
+```
+---
+## 👨‍💻 Author
+
+### **Lokesh Patil**
+*BE Information Technology | Full-Stack Developer*
+
+🚀 **Travelora** is a full-stack Smart Travel Booking System developed by **Lokesh Patil** as a web development project.
+
+**Tech Stack:**  
+`React.js` • `Vite` • `Tailwind CSS` • `Node.js` • `Express.js` • `MongoDB` • `Mongoose` • `REST API`
+
+🎓 **Department of Information Technology**  
+**K. C. College of Engineering and Management Studies & Research**
+
+> *Built with the goal of creating a modern, scalable and user-friendly travel booking experience.*
 ---
 
 # 💻 Run on Windows (VS Code + PowerShell)
