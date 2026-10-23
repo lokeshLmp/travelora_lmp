@@ -18,4 +18,4 @@ USER appuser
 
 # The app listens on $PORT (provided by Render) and falls back to 8081 locally.
 EXPOSE 8081
-ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-XX:MaxRAMPercentage=60", "-XX:+UseSerialGC", "-jar", "app.jar"]
